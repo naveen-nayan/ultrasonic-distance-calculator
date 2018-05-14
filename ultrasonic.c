@@ -1,8 +1,5 @@
 #include<reg51.h>		//Header file inclusion for 8051
-
-#include<intrins.h>    // for using _nop_() function
-
-
+#include<intrins.h>    		// for using _nop_() function
 
 void delay(unsigned int rtime);
 void lcdcmd(unsigned char DATA);
@@ -138,4 +135,3 @@ void get_range(void)
    	 delay(2);
  }
 }
-
